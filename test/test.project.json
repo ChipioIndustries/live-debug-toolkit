@@ -1,0 +1,35 @@
+{
+	"name": "live-debug-toolkit",
+	"tree": {
+		"$className": "DataModel",
+
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"$path": "shared",
+			"DevPackages": {
+				"$path": "../DevPackages"
+			},
+			"Packages": {
+				"$className": "Folder",
+				"$path": "../Packages",
+				"LiveDebugToolkit": {
+					"$path": "../default.project.json"
+				}
+			}
+		},
+
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"TestExecution": {
+				"$path": "TestExecution.server.lua"
+			}
+		},
+
+		"HttpService": {
+			"$className": "HttpService",
+			"$properties": {
+				"HttpEnabled": true
+			}
+		}
+	}
+}
